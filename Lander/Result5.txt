@@ -1,0 +1,64 @@
+VERSION 7
+-gain = 1000
+-Maximum acceleration is 22.3473
+-Landing velocity is -1.1359
+-Fuel mass remaining at landing is 499.8747
+-The controller is robust as all three criteria are passed for all changed values of initial velocity and initial height.
+
+VERSION 8
+-gain = 1000
+-Maximum acceleration is 28.4259
+-Landing velocity is -1.4327
+-Fuel mass remaining at landing is 751.9995
+
+VERSION 9
+-gain = 1000
+
+h = 3000
+Maximum acceleration is 28.393
+Landing velocity is -1.4519
+Fuel mass remaining at landing is 754.0591
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
+
+h = 3100
+Maximum acceleration is 28.3722
+Landing velocity is -1.4335
+Fuel mass remaining at landing is 754.8774
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
+
+h = 2900
+Maximum acceleration is 28.4259
+Landing velocity is -1.4327
+Fuel mass remaining at landing is 751.9995
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
+
+v = -310
+Maximum acceleration is 28.4965
+Landing velocity is -1.4154
+Fuel mass remaining at landing is 740.127
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
+
+v = -290
+Maximum acceleration is 28.3548
+Landing velocity is -1.4496
+Fuel mass remaining at landing is 764.0152
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
+-Even after stress testing, the criteria were all passed
+
+for v = -310 and h = 3100
+Maximum acceleration is 28.4203
+Landing velocity is -1.4169
+Fuel mass remaining at landing is 743.0645
+Criteria #1 Passed
+Criteria #2 Passed
+Criteria #3 Passed
